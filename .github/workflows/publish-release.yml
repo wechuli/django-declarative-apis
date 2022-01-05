@@ -6,7 +6,7 @@ name: "publish release"
 
 on: 
   release:
-    types: [published]
+    types: [published,created,released]
 
 jobs:
   build-source:
