@@ -72,6 +72,7 @@ jobs:
 
   publish-gh-pages:
     needs: [build-docs]
+    runs-on: ubuntu-latest
     steps:
       - uses: crazy-max/ghaction-github-pages@v2
         with:
