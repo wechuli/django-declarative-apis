@@ -18,6 +18,11 @@ with open(path.join(HERE, "requirements.txt")) as requirements_file:
 with open(path.join(HERE, "README.md")) as readme_file:
     long_description = readme_file.read()
 
+
+def fake_function():
+    return "0.0.1"
+
+
 setuptools.setup(
     name="django-declarative-apis",
     version="0.22.4",  # set by bumpversion
