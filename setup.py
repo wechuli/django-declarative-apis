@@ -23,6 +23,10 @@ def fake_function():
     return "0.0.1"
 
 
+def fake_function_2():
+    return "0.0.1"
+
+
 setuptools.setup(
     name="django-declarative-apis",
     version="0.22.4",  # set by bumpversion
